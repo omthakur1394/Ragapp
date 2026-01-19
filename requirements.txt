@@ -1,17 +1,20 @@
-# Use CPU versions to prevent Render RAM crashes
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.9.1+cpu
-torchvision==0.24.1+cpu
-
-# Core AI & Frameworks
+torch
+torchvision
 fastapi
 uvicorn
-langchain
-langgraph
-docling
-groq
+gunicorn
+pydantic
 python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-huggingface
+langchain-chroma
+langchain-docling
+langgraph
 chromadb
 sentence-transformers
-gunicorn
-langchain-groq
+docling
+groq
