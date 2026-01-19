@@ -12,8 +12,4 @@ docling
 groq
 python-dotenv
 chromadb
-<<<<<<< HEAD
 sentence-transformers
-=======
-sentence-transformers
->>>>>>> 7c7a118 (remove the end point)
