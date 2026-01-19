@@ -14,3 +14,4 @@ python-dotenv
 chromadb
 sentence-transformers
 gunicorn
+langchain-groq
